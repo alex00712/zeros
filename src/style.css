@@ -1,0 +1,42 @@
+.header{
+    width: 100%;
+    text-align: center;
+}
+.main{
+    margin-top: 1.2em;
+    width: 100vw;
+    display: flex;
+}
+.game{
+    margin: 0 auto;
+    border: 3px solid black;
+
+}
+.gameing{
+    margin: 0 auto;
+    display: none;
+    text-align: center;
+}
+.control{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    margin-top: 3em;
+    color: #fff; 
+    text-decoration: none; 
+    user-select: none; 
+    background: rgb(212,75,56); 
+    padding: .7em 1.5em; 
+    outline: none; 
+}
+button:hover { background: rgb(232,95,76); }
+button:active { background: rgb(152,15,0); }
+
+.tableType{
+    margin-top: 3em;
+}
